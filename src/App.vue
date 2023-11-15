@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar/>
+    <SectionOne/>
+    <SectionTwo/>
+    <SectionThree/>
+    <SectionFour/>
+    <SectionFive/>
+    <SectionSix/>
+    <SectionFinal/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+import SectionOne from './components/SectionOne.vue'
+import SectionTwo from './components/SectionTwo.vue'
+import SectionThree from './components/SectionThree.vue'
+import SectionFour from './components/SectionFour.vue'
+import SectionFive from './components/SectionFive.vue'
+import SectionSix from './components/SectionSix.vue'
+import SectionFinal from './components/SectionFinal.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    SectionOne,
+    SectionTwo,
+    SectionThree,
+    SectionFour,
+    SectionFive,
+    SectionSix,
+    SectionFinal,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
