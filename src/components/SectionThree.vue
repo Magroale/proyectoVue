@@ -86,7 +86,7 @@ export default {
 
 
     mounted() {
-        axios.get('https://backend-para-proyecto-parznk944.vercel.app/home_page')
+        axios.get('https://backend-vue.vercel.app/home_page')
             .then(response => {
                 this.infoCartas = response.data;
                 console.log(response.data)
