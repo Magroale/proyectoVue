@@ -65,7 +65,7 @@ export default {
 
 
     mounted() {
-        axios.get('http://127.0.0.1:8000/vista_comentario')
+        axios.get('https://backend-para-proyecto-parznk944.vercel.app/vista_comentario')
             .then(response => {
                 this.infoComentarios = response.data;
                 console.log(response.data)

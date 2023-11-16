@@ -86,7 +86,7 @@ export default {
 
 
     mounted() {
-        axios.get('http://127.0.0.1:8000/home_page')
+        axios.get('https://backend-para-proyecto-parznk944.vercel.app/home_page')
             .then(response => {
                 this.infoCartas = response.data;
             })
