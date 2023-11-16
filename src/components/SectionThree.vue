@@ -89,6 +89,7 @@ export default {
         axios.get('https://backend-para-proyecto-parznk944.vercel.app/home_page')
             .then(response => {
                 this.infoCartas = response.data;
+                console.log(response.data)
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
